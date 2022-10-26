@@ -20,7 +20,7 @@ e)	3rd party MFA solution.
 
 •	What are the different ways Tailwind Traders could require integrity for access to endpoints using the MCRA? Design an architecture and explain your decision-making process.
 -	A Zero trust Security model requires signals to inform decisions to make access decisions enforcements capabilities to implement the decisions effectively. Microsoft Defender for Endpoint and Defender for Office 365 use signals to detect and remediate threats in emails, office collaboration and azure. 
--	Tailwind Traders can use intune for device management and device security policy configuration. They can leverage the capabilities of Azure AD for user and device inventory Azure AD Conditional Access for device heath.
+-	Tailwind Traders can use  Microsoft intune for device management and device security policy configuration. They can leverage the capabilities of Azure AD for user and device inventory Azure AD Conditional Access for device heath.
 
 •	What are the different ways Tailwind Traders could establish basic network traffic filtering and segmentation to isolate business-critical or highly vulnerable resources using the MCRA? Propose at least two ways of meeting the requirements. Explain your final decision.
 -	Enforcing Conditional Access policies: having policies in place that can cut off user access to company resources that require authentication if their account is flagged to be in violation of company policies.
