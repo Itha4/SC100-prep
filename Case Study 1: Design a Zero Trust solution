@@ -1,4 +1,11 @@
-# Design tasks
+The Zero Trust Model assumes breach and seeks to verify each request as though it originates from an open network. The tag line associated with it is Never Trust, Always Verify.
+Principles of zero trust include”
+-	Verify explicitly: always authenticate and authorize based on all available data; user identity, location, device health service or workload, anomalies and data classification.
+-	Use of least privilege: limit user access with JIT and Just Enough Access and using risk based adaptive policies.
+-	Assume breach: segment access by network, user devices and applications.
+
+
+# DESIGN TASKS
 
 •	What are different ways Tailwind Traders could use the MCRA to require Password less or MFA for all users and be able to measure risk with threat intelligence & behaviour analytics? Design an architecture and explain your decision-making process.
 -	Azure AD services that Tailwind traders can leverage include: Authentication, app management, domain services, privilege identity management, device management and identity protection.
