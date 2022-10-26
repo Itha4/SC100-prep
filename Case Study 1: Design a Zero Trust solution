@@ -17,7 +17,7 @@ e)	3rd party MFA solution.
 
 •	What are the different ways Tailwind Traders could establish basic network traffic filtering and segmentation to isolate business-critical or highly vulnerable resources using the MCRA? Propose at least two ways of meeting the requirements. Explain your final decision.
 -	Enforcing Conditional Access policies: having policies in place that can cut off user access to company resources that require authentication if their account is flagged to be in violation of company policies.
--	Implementing Role Based Access Control: selectively assigning users and permissions only needed to accomplish their tasks, minimizing their access to all company critical resources.
+-	Implementing Role Based Access Control:Selectively assigning users and permissions only needed to accomplish their tasks, minimizing their access to all company critical resources.
 
 
 •	How are you incorporating the Microsoft Cybersecurity Reference Architectures (MCRA) to produce a secured, high available, and efficient cloud architecture?
