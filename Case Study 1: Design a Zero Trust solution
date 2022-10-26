@@ -1,0 +1,27 @@
+# Design tasks
+
+•	What are different ways Tailwind Traders could use the MCRA to require Password less or MFA for all users and be able to measure risk with threat intelligence & behaviour analytics? Design an architecture and explain your decision-making process.
+-	Azure AD services that Tailwind traders can leverage include: Authentication, app management, domain services, privilege identity management, device management and identity protection.
+-	It should be a requirement that all critical impact admins to use password less or MFA. 
+MFA authentication options include: call to phone, text message to phone, notification through mobile app, verification code from mobile app or hardware token.
+Password less authentication methods include: 
+a)	Windows hello for business
+b)	FIDO2 security keys
+c)	FIDO2 smart cards
+d)	Microsoft authenticator app - the Microsoft authenticator app now offers numbers matching that can be enforced for all tenants. 
+e)	3rd party MFA solution.
+
+•	What are the different ways Tailwind Traders could require integrity for access to endpoints using the MCRA? Design an architecture and explain your decision-making process.
+-	A Zero trust Security model requires signals to inform decisions to make access decisions enforcements capabilities to implement the decisions effectively. Microsoft Defender for Endpoint and Defender for Office 365 use signals to detect and remediate threats in emails, office collaboration and azure. 
+-	Tailwind Traders can use intune for device management and device security policy configuration. They can leverage the capabilities of Azure AD for user and device inventory Azure AD Conditional Access for device heath.
+
+•	What are the different ways Tailwind Traders could establish basic network traffic filtering and segmentation to isolate business-critical or highly vulnerable resources using the MCRA? Propose at least two ways of meeting the requirements. Explain your final decision.
+-	Enforcing Conditional Access policies: having policies in place that can cut off user access to company resources that require authentication if their account is flagged to be in violation of company policies.
+-	Implementing Role Based Access Control: selectively assigning users and permissions only needed to accomplish their tasks, minimizing their access to all company critical resources.
+
+
+•	How are you incorporating the Microsoft Cybersecurity Reference Architectures (MCRA) to produce a secured, high available, and efficient cloud architecture?
+-	By leveraging Microsoft entities that help ensure 360 protection of elements in the cloud architecture: identities, endpoint, application, infrastructure, data and network.
+
+
+
