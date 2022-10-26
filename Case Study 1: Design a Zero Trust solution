@@ -1,7 +1,7 @@
 The Zero Trust Model assumes breach and seeks to verify each request as though it originates from an open network. The tag line associated with it is Never Trust, Always Verify.
 Principles of zero trust include”
 -	Verify explicitly: always authenticate and authorize based on all available data; user identity, location, device health service or workload, anomalies and data classification.
--	Use of least privilege: limit user access with JIT and Just Enough Access and using risk based adaptive policies.
+-	Use of least privilege: limit user access with  Just In Time(JIT) and Just Enough Access and using risk based adaptive policies.
 -	Assume breach: segment access by network, user devices and applications.
 
 
